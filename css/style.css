@@ -2,11 +2,11 @@
   --white: #ffffff;
   --black: #000;
   --lighterPurple : #e6cdff;  
-  --lightPurple : #A478D1;
+  --lightPurple : #6e3ba0;
   --purple : #4B2D86;
   --darkGray : #4d4d4d;
   --bs-heading-color:#000;
-  --blueCyan :#4478D1;
+  --blueCyan :#2254aa;
   --bs-secondary-bg-rgb: 245,249,255;
 }
 
@@ -93,7 +93,7 @@ input[type="file"]::file-selector-button { display: none;}
 }
 
 @media (min-width: 1200px) {
-  .h1, h1 { font-size: 2rem;}
+  .h1, h1 { font-size: 1.75rem;}
   .h2, h2 { font-size: 1.75rem;}
   .h3, h3 { font-size: 1.5rem;}
 }
@@ -129,7 +129,8 @@ input[type="file"]::file-selector-button { display: none;}
 /* End Header */
 
 /* Inner Banner */
-.inner-banner {background: rgb(164,120,209); background: linear-gradient(90deg,rgba(164,120,209,1) 35%,rgba(68,120,209,1) 100%)}
+.inner-banner {background: rgb(164,120,209);
+  background: linear-gradient(90deg,rgb(132 73 191) 50%,rgba(68,120,209,1) 100%);}
 .breadcrumb a { color: var(--white); font-weight: 700;}
 .breadcrumb a:hover { color: var(--purple);}
 .breadcrumb-item.active {color: var(--white); font-weight: 700;}
