@@ -38,7 +38,7 @@ input[type="file"]::file-selector-button { display: none;}
 .text-purple {color: var(--purple);}
 
 .carousel-indicators [data-bs-target] { opacity: 1; background-color:var(--lightPurple);}
-.carousel-indicators button.active {opacity: 1; background-color:var(--purple);}
+.carousel-indicators button.active {opacity: 1; background-color:var(--blueCyan);}
 
 .carousel-control-prev-icon, .carousel-control-next-icon {background-color: #6e3ba0; padding: 10px; background-size: 16px auto;}
 
