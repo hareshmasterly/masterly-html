@@ -98,6 +98,10 @@ input[type="file"]::file-selector-button { display: none;}
   .h1, h1 { font-size: 1.75rem;}
   .h2, h2 { font-size: 1.75rem;}
   .h3, h3 { font-size: 1.5rem;}
+
+  .container-xl-small {
+    max-width: 920px;
+  }
 }
 
 /* End Common CSS */
